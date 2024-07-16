@@ -709,4 +709,64 @@ section {
     color: #cda45e;
 }
 
+.menu .menu-item {
+    margin-top: 50px;
+}
 
+.menu .menu-img {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    border: 3px solid rgba(247, 148, 68, 0.5);
+}
+
+.menu .menu-content {
+    position: relative;
+    margin-left: 85px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu-content::after {
+    content: ".....................................................................................";
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+    color: #aaa;
+    font-family: Arial, "Helvetica Nue", Helvetica, sans-serif;
+}
+
+.menu .menu-content a {
+    padding-right: 10px;
+    background: #1a1814;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: white;
+    transform: 0.3s;
+}
+
+.menu .menu-content a:hover {
+    color: #cda45e;
+}
+
+.menu .menu-content span {
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+    color: #cda45e;
+}
+
+.menu .menu-ingredients {
+    margin-left: 85px;
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Poppins" sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*    -------------------    */
