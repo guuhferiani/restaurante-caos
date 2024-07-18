@@ -820,4 +820,56 @@ section {
     }
 }
 
+/* --------  Eventos  --------- */
+.events {
+    background: url(../img/events-bg.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
+.events::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.events .section-title h2 {
+    color: #ececec;
+}
+
+.events .container {
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .events{
+        background-attachment: fixed;
+    }
+
+    .events .events-carousel {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 30px;
+    }
+
+    .events .event-item {
+        color: #fff;
+    }
+
+    .events .event-item h3 {
+        color: #cda45e;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .events .event-item .price {
+        font-size: 26px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+
+}
