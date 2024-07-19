@@ -675,7 +675,7 @@ section {
 
 .why-us .box:hover span,
 .why-us .box:hover h4,
-.why-us .box:hover p{
+.why-us .box:hover p {
     color: #ececec;
 }
 
@@ -704,7 +704,7 @@ section {
     /* border: 1px solid #cda45e; */
 }
 
-.menu #menu-filters li:hover, 
+.menu #menu-filters li:hover,
 .menu #menu-filters li.filter-active {
     color: #cda45e;
 }
@@ -788,9 +788,11 @@ section {
     font-weight: 600;
     font-size: 15px;
 }
+
 .specials .nav-link:hover {
     color: #cda45e;
 }
+
 .specials .nav-link.active {
     color: #1a1814;
     background: #cda45e;
@@ -805,7 +807,7 @@ section {
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #d9ba85;   
+    color: #d9ba85;
 }
 
 .specials .details p {
@@ -846,7 +848,7 @@ section {
 }
 
 @media (min-width: 1024px) {
-    .events{
+    .events {
         background-attachment: fixed;
     }
 
@@ -868,8 +870,48 @@ section {
     .events .event-item .price {
         font-size: 26px;
         font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        margin-bottom: 15px;
     }
 
+    .events .event-item .price span {
+        border-bottom: 2px solid #cda45e;
+    }
 
+    .events .event-item ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .events .event-item ul li {
+        padding-bottom: 10px;
+        color: #ececec;
+    }
+
+    .events .event-item ul i {
+        font-size: 20px;
+        color: #cda45e;
+        padding-right: 4px;
+    }
+
+    .events .event-item p:last-child {
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    .events .swiper-pagination {
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .events .swiper-pagination .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+    .events .swiper-pagination .swiper-pagination-bullet-active {
+        background: #cda45e;
+    }
 
 }
