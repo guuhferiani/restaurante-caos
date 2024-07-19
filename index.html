@@ -52,7 +52,7 @@
 
   <!-- ========= HEADER =========  -->
   <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-center-lg-between">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center">
 
       <h1 class="logo me-auto me-lg-0">
         <a href="#"> Caos </a>
@@ -489,7 +489,8 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="img/event-birthday.jpg" alt="" class="img-fluid" data-aos="zoom-out-up" data-aos-delay="300">
+                  <img src="img/event-birthday.jpg" alt="" class="img-fluid" data-aos="zoom-out-up"
+                    data-aos-delay="300">
                 </div>
 
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
@@ -525,10 +526,10 @@
             </div> <!-- Fim foto 1 -->
 
             <!-- foto 2 -->
-            <div class="swiper-slide"> 
+            <div class="swiper-slide">
               <div class="row event-item">
 
-                <div class="col-lg-6"> 
+                <div class="col-lg-6">
                   <img src="img/event-custom.jpg" class="img-fluid">
                 </div>
 
@@ -537,8 +538,9 @@
                   <div class="price">
                     <p><span>$ 99</span></p>
                   </div> <!-- fim price -->
-                  
-                  <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste nobis harum blanditiis possimus, maxime aut enim similique totam!</p>
+
+                  <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste nobis
+                    harum blanditiis possimus, maxime aut enim similique totam!</p>
 
                   <ul>
                     <li>
@@ -564,10 +566,10 @@
             <!-- Fim foto 2 -->
 
             <!-- foto 3 -->
-            <div class="swiper-slide"> 
+            <div class="swiper-slide">
               <div class="row event-item">
 
-                <div class="col-lg-6"> 
+                <div class="col-lg-6">
                   <img src="img/event-private.jpg" class="img-fluid">
                 </div>
 
@@ -576,8 +578,9 @@
                   <div class="price">
                     <p><span>$ 290</span></p>
                   </div> <!-- fim price -->
-                  
-                  <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste nobis harum blanditiis possimus, maxime aut enim similique totam!</p>
+
+                  <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste nobis
+                    harum blanditiis possimus, maxime aut enim similique totam!</p>
 
                   <ul>
                     <li>
@@ -595,7 +598,8 @@
                   </ul>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cumque tenetur iusto impedit eos ex sed dolores saepe eaque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cumque tenetur iusto impedit eos ex
+                    sed dolores saepe eaque.
                   </p>
                 </div> <!-- fim content -->
               </div> <!-- fim event  -->
@@ -606,7 +610,59 @@
           <div class="swiper-pagination"></div>
         </div> <!-- fim events-slider -->
       </div>
-    </section>
+    </section> <!-- === fim eventos === -->
+
+    <!-- Reservas  -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Reserva</h2>
+          <p>Reservar uma Mesa</p>
+        </div>
+
+        <!-- <form action="forms/book-a-table.php" method="post"> estrutura do forms para PHP-->
+        <form action="" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row">
+
+            <!-- Nome -->
+            <div class="col-lg-4 col-md-6 form-group">
+
+              <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4"
+                data-msg="Por favor insira pelo menos 4 caracteres">
+              <div class="validate"></div>
+            </div> <!-- Fim Nome -->
+
+            <!-- Email -->
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+
+              <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Por favor digite um email valido">
+              <div class="validate"></div>
+            </div>
+
+            <!-- telefone -->
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Seu Telefone" data-rule="minlen:11" data-msg="Por favor digite o DDD e o telefone completo">
+              <div class="validate"></div>
+            </div>
+
+            
+            
+
+
+
+            
+
+          </div> <!-- fim qtd pessoas -->
+
+        </form>
+
+      </div>
+    </section> <!-- fim reservas -->
+
+
+
 
 
 
