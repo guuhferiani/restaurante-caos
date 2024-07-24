@@ -980,7 +980,8 @@ section {
 
 .book-a-table .php-email-form input,
 .book-a-table .php-email-form textarea,
-.book-a-table .php-email-form #select {
+.book-a-table .php-email-form #select,
+.book-a-table .php-email-form #date {
     border-radius: 0;
     box-shadow: none;
     font-size: 14px;
@@ -991,13 +992,15 @@ section {
 
 .book-a-table .php-email-form input::placeholder,
 .book-a-table .php-email-form textarea::placeholder,
-.book-a-table .php-email-form #select {
+.book-a-table .php-email-form #select,
+.book-a-table .php-email-form #date {
     color: #a49b89;
 }
 
 .book-a-table .php-email-form input:focus,
 .book-a-table .php-email-form textarea:focus,
-.book-a-table .php-email-form #select:focus {
+.book-a-table .php-email-form #select:focus,
+.book-a-table .php-email-form #date:focus {
     border-color: #cda45e;
 }
 
@@ -1023,3 +1026,42 @@ section {
     background: #bb9c66;
 }
 
+/* =====  Avaliacoes  =======  */
+
+.testimonials .testimonials-carousel, 
+.testimonials .testimonials-slider {
+    overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    min-height: 320px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid rgba(228, 161, 47, 0.7);
+}
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: white;
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 0 45px;
+}
+
+.testimonials .testimonial-item .quote-icon-left, 
+.testimonials .testimonial-item .quote-icon-right {
+    color: #d3af71;
+    font-size: 26px;
+}
